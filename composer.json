@@ -1,0 +1,17 @@
+{
+  "name": "cerad/dbal",
+  "type": "project",
+  "description": "Cerad Database Access Layer",
+  "homepage": "http://zayso.org",
+  "authors": [{ "name": "Art Hundiak", "email": "ahundiak@gmail.com" }],
+  "license": "MIT",
+  "autoload": { "psr-4": { "Cerad\\Component\\Dbal\\": "" }},
+  "require": 
+  {
+    "php": ">=5.5.5",
+    "doctrine/dbal": "~2.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.6"
+  }
+}
